@@ -11,7 +11,7 @@ Choose one installation method.
 Send this prompt to Codex:
 
 ```text
-Use $skill-installer to install the skill from https://github.com/feodal01/artifact-workflow.
+Use $skill-installer to install the skill from https://github.com/feodal01/artifact-workflow-skill.
 The skill is at repository path "."; install it with the name "artifact-workflow".
 ```
 
@@ -21,7 +21,7 @@ With Git installed, run these commands in a macOS or Linux terminal:
 
 ```sh
 mkdir -p "$HOME/.agents/skills"
-git clone https://github.com/feodal01/artifact-workflow.git "$HOME/.agents/skills/artifact-workflow"
+git clone https://github.com/feodal01/artifact-workflow-skill.git "$HOME/.agents/skills/artifact-workflow"
 ```
 
 This installs the skill for your user across projects. Keep the entire directory: `SKILL.md` uses the files in `references/`.
