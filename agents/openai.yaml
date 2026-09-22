@@ -1,0 +1,4 @@
+interface:
+  display_name: "Artifact Workflow"
+  short_description: "Create clean, final, validated deliverables."
+  default_prompt: "Use $artifact-workflow to create or update the requested artifact and return only the validated deliverable set."
